@@ -10,8 +10,8 @@ namespace Lesson4_10._08._2021
           {
               //ДЗ 1
              double summa= Convert.ToDouble(Console.ReadLine());
-             if(summa>1000)Console.WriteLine( summa-(summa-1000)+(summa-1000)*0.95);
-             else if (summa>500)Console.WriteLine(summa-(summa-500)+(summa-500)*0.97);
+             if(summa>1000)Console.WriteLine( summa*0.95);
+             else if (summa>500)Console.WriteLine(summa*0.97);
                else Console.WriteLine(summa);
                Console.WriteLine();
           }
