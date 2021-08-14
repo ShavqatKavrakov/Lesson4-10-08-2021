@@ -24,7 +24,7 @@ namespace Lesson4_10._08._2021
        double d= Convert.ToDouble(Console.ReadLine());
        if(a==b && b==c &&c==d) 
        Console.WriteLine($"Результат : {a*b*c*d}");
-       else if(a<=b && b<=c && c<=d)
+       else if(a<b && b<c && c<d)
        Console.WriteLine("<<Числа расположены по возрастанию>>");
        else 
       {
